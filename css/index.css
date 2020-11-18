@@ -30,13 +30,13 @@
     justify-content: center;
 }
 
-.col {
+.special {
     padding: 2px;
     margin-bottom: 30px;
     position: relative;
     width: 100%;
 }
-.col:hover .overlay {
+.special:hover .overlay {
     opacity: 0.6;
 }
 .overlay {
@@ -51,6 +51,7 @@
     transition: .5s ease;
     background-color: whitesmoke;
 }
+
 .text {
     color: black;
     font-size: 20px;
@@ -63,7 +64,7 @@
     text-align: center;
 }
 
-.col p {
+.special p {
     padding: 60px;
     text-decoration: none;
     color: black;
