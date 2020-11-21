@@ -1,10 +1,10 @@
-.col {
+.col-4 {
     padding: 2px;
     margin-bottom: 30px;
     position: relative;
     width: 100%;
 }
-.col:hover .overlay {
+.col-4:hover .overlay {
     opacity: 0.6;
 }
 .overlay {
@@ -31,7 +31,7 @@
     text-align: center;
 }
 
-.col p {
+.col-4 p {
     padding: 60px;
     text-decoration: none;
     color: black;
