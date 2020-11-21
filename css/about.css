@@ -11,3 +11,7 @@ img {
 .emptyContainer {
     padding: 50px;
 }
+
+.container {
+    width: 500px;
+}
