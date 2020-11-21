@@ -1,4 +1,4 @@
-.col {
+.content {
     padding: 2px;
     margin-bottom: 30px;
     position: relative;
@@ -18,7 +18,7 @@
     background-color: #FFFFFF;
 }
 
-.col:hover .overlay {
+.content:hover .overlay {
     opacity: 0.6;
 }
 
