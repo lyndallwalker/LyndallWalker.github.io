@@ -13,15 +13,15 @@
 /*    margin-left: 100px;*/
 /*}*/
 
-.row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/*.row {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
 
 .content {
     padding: 2px;
-    position: relative;
+    /*position: relative;*/
     width: 100%;
 }
 
@@ -33,6 +33,8 @@
 
 .dateWriting {
     /*text-align: right;*/
-    padding-top: 0;
     font-size: 13px;
+}
+.container {
+    width: 800px;
 }
