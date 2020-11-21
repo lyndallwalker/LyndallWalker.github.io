@@ -1,17 +1,8 @@
 p {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 35px;
     line-height: 1.5;
 }
-
 img {
-    width: 500px;
-}
-
-.emptyContainer {
-    padding: 50px;
-}
-
-.container {
-    width: 500px;
+    width: 100%;
 }
