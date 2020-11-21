@@ -2,26 +2,11 @@
     margin-bottom: 100px;
 }
 .album img {
-    width: 800px;
+    width: 100%;
 }
-
-/*.album h3 {*/
-/*    margin-left: 100px;*/
-/*}*/
-/*.album p {*/
-/*    margin-top: 80px;*/
-/*    margin-left: 100px;*/
-/*}*/
-
-/*.row {*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*}*/
 
 .content {
     padding: 2px;
-    /*position: relative;*/
     width: 100%;
 }
 
@@ -35,7 +20,4 @@
     text-align: right;
     font-size: 13px;
     padding: 15px 35px;
-}
-.container {
-    width: 800px;
 }
