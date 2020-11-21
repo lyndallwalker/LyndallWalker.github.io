@@ -56,29 +56,33 @@
             <h1 class="jumbotron-heading"><a href="index.html">Lyndall Walker Design </a></h1>
         </div>
     </section>
-    <div class="twoContainer">
-        <div class="contactContainer">
-            <form action="https://formspree.io/lyndall@lyndallwalker.com" method="POST">
-                <h3>Contact us.</h3>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name">
 
-                <label for="name">Email</label>
-                <input type="text" id="email" name="email">
-
-                <label for="subject">Message</label>
-                <textarea id="subject" name="subject" placeholder=" " style="height:100px"></textarea>
-
-                <div class="buttonHolder">
-                    <input type="submit" value="Send">
-                </div>
-            </form>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <h3>Contact us</h3>
+            <div id="contactForm">
+                <form action="https://formspree.io/lyndall@lyndallwalker.com" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                    <label for="name">Email</label>
+                    <input type="text" id="email" name="email">
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder=" " style="height:100px"></textarea>
+                    <div class="buttonHolder">
+                        <input type="submit" value="Send Message">
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="image">
-            <img src="images/min.jpg" alt="contact image">
+        <div class="col-12 col-md-6">
+            <div id="formImage">
+                <img src="images/min.jpg" alt="contact image">
+            </div>
         </div>
-
     </div>
+</div>
+
 
 </main>
 <footer class="text-muted">
