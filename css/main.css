@@ -1,13 +1,9 @@
 :root {
     --jumbotron-padding-y: 3rem;
 }
-
-
 body {
     font-family: 'Nunito Sans', sans-serif;
 }
-
-
 /* Navigation Bar */
 .jumbotron {
     padding-top: var(--jumbotron-padding-y);
@@ -15,29 +11,9 @@ body {
     margin-bottom: 0;
     background-color: #FFFFFF;
 }
-
-/*@media (min-width: 768px) {*/
-/*    .jumbotron {*/
-/*        padding-top: calc(var(--jumbotron-padding-y) * 1.2);*/
-/*        padding-bottom: calc(var(--jumbotron-padding-y) * 1.2);*/
-/*    }*/
-/*}*/
-
 .jumbotron p:last-child {
     margin-bottom: 0;
 }
-
-/*.jumbotron-heading {*/
-/*    font-weight: 400;*/
-/*    font-size: 2.7em;*/
-/*    margin-top: 0;*/
-/*    margin-bottom: 30px;*/
-/*}*/
-/*.jumbotron .container {*/
-/*    max-width: 40rem;*/
-/*    margin-top: 0;*/
-/*}*/
-
 .jumbotron-heading a, a:hover {
     text-decoration: none;
     color: black;
@@ -48,7 +24,6 @@ body {
     margin-top: 50px;
     height: 100px;
 }
-
 .navbar {
     background-color: white;
     opacity: 80%;
@@ -60,7 +35,6 @@ body {
 .nav-item a {
     color: black;
 }
-
 .navbar-brand {
     display: inline-block;
     padding-top: .3125rem;
@@ -72,7 +46,6 @@ body {
     width: 100px;
     padding-right: 50px;
 }
-
 /* Buttons */
 .button {
     background-color: #FFFFFF;
@@ -87,18 +60,6 @@ body {
     transition-duration: 0.4s;
     cursor: pointer;
 }
-
-/*.buttons {*/
-/*    background-color: white;*/
-/*    color: darkslategray;*/
-/*    text-decoration: none;*/
-/*}*/
-
-/*.buttons:hover {*/
-/*    color: floralwhite;*/
-/*    text-decoration: none;*/
-/*}*/
-
 /*NavBar*/
 .navButtons {
     background-color: white;
@@ -110,22 +71,6 @@ body {
     color: black;
     text-decoration: none;
 }
-/*.dropdown {*/
-/*    color:black;*/
-/*    padding: 1px;*/
-/*    text-decoration: none;*/
-/*}*/
-
-/*.dropdown-menu {*/
-/*    padding: 0;*/
-/*    border: none;*/
-/*}*/
-
-/*.dropdown-item {*/
-/*    font-size: 12px;*/
-/*}*/
-
-
 .searchButton {
     background-color: white;
     color: black;
@@ -135,7 +80,6 @@ body {
     color: antiquewhite;
     text-decoration: none;
 }
-
 /* Footer */
 footer {
     padding-top: 3rem;
@@ -156,7 +100,6 @@ footer a:hover {
 .box-shadow {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
-
 .form-control:focus {
     box-shadow: none;
     color: darkslategray;
@@ -173,7 +116,6 @@ footer a:hover {
     font-style: italic;
     text-align: right;
  }
-
 .fa {
     font-size: 20px;
     width: 15px;
@@ -184,7 +126,6 @@ footer a:hover {
 .fa:hover {
     opacity: 0.7;
 }
-
 .fa-linkedin {
     color: #007bb5;
 }
