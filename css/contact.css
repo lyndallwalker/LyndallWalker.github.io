@@ -1,6 +1,7 @@
 #contactForm {
-    padding: 5px;
+    padding: 15px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #formImage img {
@@ -12,6 +13,17 @@
 }
 
 input[type=Text], select, textarea {
+    font-size: 12px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid darkslategray;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email], select, textarea {
     font-size: 12px;
     width: 100%;
     padding: 5px;
